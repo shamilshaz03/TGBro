@@ -47,8 +47,8 @@ BOT_USERNAME = environ.get('BOT_USERNAME', 'TonyStartkRobot')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'me_shamil')
-UPDATE_CHANNEL = environ.get('UPDATE_CHANNEL', 'https://t.me/me_shamil') # add here your update channel link
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cinemahub1k')
+UPDATE_CHANNEL = environ.get('UPDATE_CHANNEL', 'https://t.me/cinemahub1k') # add here your update channel link
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), False)
